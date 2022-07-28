@@ -19,7 +19,7 @@ namespace Benchmark
             InitializeComponent();
         }
 
-        static async void WriteCharacters(int x)
+        static void WriteCharacters(int x)
         {
             // Delete the file if it exists.
             if (File.Exists($@"C:\Users\m.gasaro.ext\Documents\test_bench\MyTest{x}.txt"))
@@ -54,7 +54,7 @@ namespace Benchmark
         public void Start()
         {
             
-            for (int i = 0; i < 100; i++)
+            for (int i = 0; i < 10000; i++)
             {
                 WriteCharacters(i);
 

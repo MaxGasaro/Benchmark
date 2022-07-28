@@ -55,6 +55,7 @@
     <Compile Include="Benchmark.Designer.cs">
       <DependentUpon>Benchmark.cs</DependentUpon>
     </Compile>
+    <Compile Include="generate.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
